@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driveneats</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <script src="script.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+    <div class="topo">
+        <h1>DrivenEats</h1>
+        <h2>Sua comida em 6 minutos</h2>
+    </div>
+
+    <div class="corpo">
+
+        <div class="escolha">
+            <div class="tipoescolha">
+                <h1>Primeiro, escolha seu prato</h1>
+            </div>
+            <div class="opcoes">
+
+                <div class="opcao" onclick="ligar1(this)">
+                    
+                    <img src="image/bacon1.jpg">
+                    <div>
+                        <h3>Bacon gostoso</h3>
+                    </div>
+                    <div>
+                        <h4>Bacon gostoso que acompanha bacon e uma porção de bacon</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 5,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="opcao" onclick="ligar1(this)">
+                    
+                    <img src="image/prato.jpg">
+                    <div>
+                        <h3>Prato feito</h3>
+                    </div>
+                    <div>
+                        <h4>Carne, arroz, feijão, com uma acompanhamento de bacon</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 6,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+                
+                <div class="opcao" onclick="ligar1(this)">
+                    
+                    <img src="image/macarrao.webp">
+                    <div>
+                        <h3>Macarrão</h3>
+                    </div>
+                    <div>
+                        <h4>Macarrão a bolonhesa. Vem acompanhado de bacon</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 7,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="opcao" onclick="ligar1(this)">
+                    
+                    <img src="image/salmao.png">
+                    <div>
+                        <h3>Salmão</h3>
+                    </div>
+                    <div>
+                        <h4>File de salmão grelhado ao ponto com fatias de bacon</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 8,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="opcao" onclick="ligar1(this)">
+                    
+                    <img src="image/yakisoba.jpg">
+                    <div>
+                        <h3>Yakisoba</h3>
+                    </div>
+                    <div>
+                        <h4>Yakisoba tamanho grande e com porção de bacon</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 9,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="opcao" onclick="ligar1(this)">
+                    
+                    <img src="image/sushi.png">
+                    <div>
+                        <h3>Sushi</h3>
+                    </div>
+                    <div>
+                        <h4>Sushi de tubarão martelo gourmet com recheio de bacon</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 10,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="escolha">
+            <div class="tipoescolha">
+                <h1>Agora, sua bebida</h1>
+            </div>
+
+            <div class="opcoes">
+
+                <div class="opcao" onclick="ligar2(this)">
+                    
+                    <img src="image/cafe.jpg">
+                    <div>
+                        <h3>Café gostoso</h3>
+                    </div>
+                    <div>
+                        <h4>Café delicioso</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 00,01</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="opcao" onclick="ligar2(this)">
+                    
+                    <img src="image/suco.webp">
+                    <div>
+                        <h3>Suco de café</h3>
+                    </div>
+                    <div>
+                        <h4>Café cremoso</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 1,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="opcao" onclick="ligar2(this)">
+                    
+                    <img src="image/cha.jpg">
+                    <div>
+                        <h3>Chá de café</h3>
+                    </div>
+                    <div>
+                        <h4>Café saboroso</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 2,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="opcao" onclick="ligar2(this)">
+                    
+                    <img src="image/cerveja.jpg">
+                    <div>
+                        <h3>Cerveja de café</h3>
+                    </div>
+                    <div>
+                        <h4>Café suculento</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 3,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="opcao" onclick="ligar2(this)">
+                    
+                    <img src="image/coca.jpg">
+                    <div>
+                        <h3>Coquinha gelada</h3>
+                    </div>
+                    <div>
+                        <h4>A clássica</h4>
+                    </div>
+                    <div class="finalOpcao">
+                        <h2>R$ 4,00</h2>
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="escolha">
+            <div class="tipoescolha">
+                <h1>Por fim, sua sobremesa</h1>
+            </div>
+
+            <div class="opcoes">
+
+                    <div class="opcao" onclick="ligar3(this)">
+                        
+                        <img src="image/Tiramisu.webp">
+                        <div>
+                            <h3>Tiramisu</h3>
+                        </div>
+                        <div>
+                            <h4>Com café, delicioso e cremeso</h4>
+                        </div>
+                        <div class="finalOpcao">
+                            <h2>R$ 10,00</h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao" onclick="ligar3(this)">
+                        
+                        <img src="image/bolo.jpg">
+                        <div>
+                            <h3>Bolo de chocolate</h3>
+                        </div>
+                        <div>
+                            <h4>Bolo grande, gostoso e macio</h4>
+                        </div>
+                        <div class="finalOpcao">
+                            <h2>R$ 11,00</h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao" onclick="ligar3(this)">
+                        
+                        <img src="image/brigadeiro.jpg">
+                        <div>
+                            <h3>Brigadeiro</h3>
+                        </div>
+                        <div>
+                            <h4>Grande e saboroso. Vem 5 unidades</h4>
+                        </div>
+                        <div class="finalOpcao">
+                            <h2>R$ 15,00</h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao" onclick="ligar3(this)">
+                        
+                        <img src="image/Donut.jpg">
+                        <div>
+                            <h3>Donut Surpresa</h3>
+                        </div>
+                        <div>
+                            <h4>Vem 3 donuts com sabor aleatório</h4>
+                        </div>
+                        <div class="finalOpcao">
+                            <h2>R$ 12,00</h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao" onclick="ligar3(this)">
+                        
+                        <img src="image/Pudim.jpg">
+                        <div>
+                            <h3>Pudim de leite</h3>
+                        </div>
+                        <div>
+                            <h4>Pudim grande gostoso e cremoso de leite</h4>
+                        </div>
+                        <div class="finalOpcao">
+                            <h2>R$ 18,00</h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao" onclick="ligar3(this)">
+                        
+                        <img src="image/Rocambole.webp">
+                        <div>
+                            <h3>Rocambole</h3>
+                        </div>
+                        <div>
+                            <h4>Robambole de chocolate e baunilha</h4>
+                        </div>
+                        <div class="finalOpcao">
+                            <h2>R$ 13,00</h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao" onclick="ligar3(this)">
+                        
+                        <img src="image/torta.jpg">
+                        <div>
+                            <h3>Torta holandesa</h3>
+                        </div>
+                        <div>
+                            <h4>Torta grande e deliciosa feita com amor</h4>
+                        </div>
+                        <div class="finalOpcao">
+                            <h2>R$ 17,00</h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+
+    <div class="barra"></div>
+
+    <div class="confirmar">
+        <div class="botao1">
+            <h2>Selecione os 3 itens para fechar o pedido</h2>
+        </div>
+        <div class="botao2">
+            <h3>Fechar pedido</h3>
+        </div>
+        
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    
+</body>
+</html>
